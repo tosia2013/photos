@@ -1,56 +1,42 @@
-import React from 'react';
-import {
-    BrowserRouter as Router,
-    Switch,
-    Route,
-    Link
-} from "react-router-dom";
+import React from "react";
+import g_logo from "../../img/g_logo.jpg";
+import fb_logo from "../../img/fb_logo.png";
+import in_logo from "../../img/in_logo.png";
+import li_logo from "../../img/li_logo.png";
+import yp_logo from "../../img/yp_logo.png";
 
-export  default function SocialNavigation() {
-    return(
-        <Router>
-            <nav>
-                <Link to="/facebook">
-                    <img
-                        src="/photos/src/img/Fb.png"
-                        alt="feacebook"/>
-                </Link>
-                <Link to="/instagram">
-                    <img
-                        src="/photos/src/img/In.png"
-                        alt="instagram"/>
-                </Link>
-                <Link to="/linkedIn">
-                    <img
-                        src="/photos/src/img/Li.png"
-                        alt="linkedIn"/>
-                </Link>
-                <Link to="/twitter">
-                    <img
-                        src="/photos/src/img/Yp.png"
-                        alt="twitter"/>
-                </Link>
-                <Link to="/google+">
-                    <img
-                        src="/photos/src/img/Ggle.jpg"
-                        alt="google+"/>
-                </Link>
-            </nav>
-            <Switch>
-                <Route path="/facebook" />
-            </Switch>
-            <Switch>
-                <Route path="/instagram" />
-            </Switch>
-            <Switch>
-                <Route path="/linkedIn" />
-            </Switch>
-            <Switch>
-                <Route path="/twitter" />
-            </Switch>
-            <Switch>
-                <Route path="/google+" />
-            </Switch>
-        </Router>
-    )
-}
+
+const social = [
+  {
+    path: g_logo,
+    alt: "g+",
+  },
+  {
+    path: fb_logo,
+    alt: "facebook",
+  },
+  {
+    path: in_logo,
+    alt: "instagram",
+  },
+  {
+    path: li_logo,
+    alt: "linkedin",
+  },
+  {
+    path: yp_logo,
+    alt: "socialUp",
+  },
+];
+
+const SocialNavigation = () => (
+  <nav>
+    {social.map((socialLogo) => (
+      <a href="#">
+        <img src={socialLogo.path} alt={socialLogo.alt} />
+      </a>
+    ))}
+  </nav>
+);
+
+export default SocialNavigation;
