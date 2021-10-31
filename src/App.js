@@ -1,20 +1,10 @@
-import React, { Component } from 'react';
-import NavigationPhoto from './components/header/NavigationPhoto'
-import HeaderButton from "./components/header/HeaderButton";
-import SocialNavigation from "./components/header/SocialNavigation";
+import React, { Component } from "react";
+import Routers from "./components/Router";
 
-
-class App extends Component{
-    render() {
-        return(
-            <header>
-                <h1>Studio</h1>
-                <NavigationPhoto />
-                <HeaderButton />
-                <SocialNavigation />
-            </header>
-        )
-    }
+class App extends Component {
+  render() {
+    return <Routers />;
+  }
 }
 
-export default App
+export default App;
