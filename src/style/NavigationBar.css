@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+
+.nav__header {
+  margin: 0;
+  display: flex;
+  white-space: nowrap;
+  align-items: center;
+  margin: 0 0 0 8%;
+}
+
+.hederNav__link {
+  font-size: 16px;
+  line-height: 28px;
+  color: #222222;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  width: 100%;
+  margin: 0 8% 25px 0;
+}

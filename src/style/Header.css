@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+.header__top{
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo__studio {
+  width: 135px;
+  height: 55px;
+  margin: 20px 0 0 8%;
+}
+
+.first__chapter,
+.second__chapter {
+  display: flex;
+}
+
+.first__chapter{
+  flex-basis: 87%;
+}
+
+.second__chapter {
+  flex-basis: 13%;
+  align-items: center;
+  margin: 0 10% 25px 0;
+}
+
+.photografer {
+  height: 500px;
+  width: 100%;
+  background: url("../img/Photograf.png");
+  background-size: cover;
+  margin: 0;
+}
+.Slogan{
+  font-size: 70px;
+  line-height: 80px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+}
+
+.after__slogan{
+  font-size: 21px;
+  line-height: 28px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+}
+
+.Slogan{
+  padding: 45px 0 0 8.5%;
+}
+
+.after__slogan{
+  margin: 0;
+  padding: 0 0 0 8.5%;
+}

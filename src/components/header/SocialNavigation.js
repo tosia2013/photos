@@ -4,13 +4,9 @@ import fb_logo from "../../img/fb_logo.png";
 import in_logo from "../../img/in_logo.png";
 import li_logo from "../../img/li_logo.png";
 import yp_logo from "../../img/yp_logo.png";
-
+import "../../style/SocialNavigation.css";
 
 const social = [
-  {
-    path: g_logo,
-    alt: "g+",
-  },
   {
     path: fb_logo,
     alt: "facebook",
@@ -27,13 +23,21 @@ const social = [
     path: yp_logo,
     alt: "socialUp",
   },
+  {
+    path: g_logo,
+    alt: "g+",
+  },
 ];
 
 const SocialNavigation = () => (
-  <nav>
+  <nav className="nav__social">
     {social.map((socialLogo) => (
-      <a href="#">
-        <img src={socialLogo.path} alt={socialLogo.alt} />
+      <a href="#" className="social__logo">
+        <img
+          src={socialLogo.path}
+          alt={socialLogo.alt}
+          className="social__nav"
+        />
       </a>
     ))}
   </nav>
