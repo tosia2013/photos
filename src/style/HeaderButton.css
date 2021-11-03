@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+.but__con{
+  margin: 0 26.5% 0 0;
+}
+
+.button__top {
+  background: #ff3c2d;
+  width: 116px;
+  height: 32px;
+  border-radius: 3px;
+  font-size: 16px;
+  line-height: 28px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  margin: 0 15% 0 0;
+}
