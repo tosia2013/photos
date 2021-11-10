@@ -7,8 +7,8 @@ const NavigationBar = () => (
     <NavLink to="/individuals" className="hederNav__link">
       Individuals
     </NavLink>
-    <NavLink to="/news" className="hederNav__link">
-      News
+    <NavLink to="/companies" className="hederNav__link">
+      Companies
     </NavLink>
     <NavLink to="/the_studio" className="hederNav__link">
       The Studio
