@@ -8,7 +8,7 @@ import {
 import Header from "./Header";
 import about_us from "../conteiner/about_us";
 import blog from "../conteiner/blog";
-import companies from "../conteiner/companies";
+import news from "../conteiner/news";
 import the_studio from "../conteiner/the_studio";
 import individuals from "../conteiner/individuals";
 
@@ -20,7 +20,7 @@ export default function Routers() {
         <Route path="/individuals" component={individuals} />
       </Switch>
       <Switch>
-        <Route path="/companies" component={companies} />
+        <Route path="/news" component={news} />
       </Switch>
       <Switch>
         <Route path="/the_studio" component={the_studio} />
