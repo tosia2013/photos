@@ -22,7 +22,7 @@
 }
 
 .news {
-  news__description: justify;
+  justify-content: justify;
 }
 
 .newsLogo {
