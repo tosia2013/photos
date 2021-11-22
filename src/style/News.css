@@ -22,7 +22,8 @@
 }
 
 .news {
-  justify-content: justify;
+  display: flex;
+  justify-content: center;
 }
 
 .newsLogo {
@@ -55,4 +56,9 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  margin: 0 0 40px 0;
+}
+
+.newsCase{
+
 }

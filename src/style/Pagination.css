@@ -1,0 +1,28 @@
+.pagination{
+    margin:0 0 25px 0;
+}
+.btn__pages{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pag__btn{
+    /*text-decoration: none;*/
+    background: none;
+    border: none;
+}
+
+.btn__pag__back{
+    /*border: 1px groove black;*/
+    padding: 0 2%;
+}
+
+.pag__btn{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.pagination__text{
+    font-size: 18px;
+}

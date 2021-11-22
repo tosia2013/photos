@@ -32,7 +32,7 @@ export default function Routers() {
         <Route path="/blog" component={blog} />
       </Switch>
       <Switch>
-        <Redirect to="/individuals" />
+        <Redirect to="" />
       </Switch>
     </Router>
   );
